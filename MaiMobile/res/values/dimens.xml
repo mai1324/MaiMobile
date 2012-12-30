@@ -1,0 +1,13 @@
+<resources>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="dwdekari">12dp</dimen>
+    <dimen name="eikosidio">22dp</dimen>
+    <dimen name="eikosi">20dp</dimen>
+    <dimen name="triantadio">32dp</dimen>
+    <dimen name="dekaeksi">16dp</dimen>
+    <dimen name="dekari">10dp</dimen>
+
+</resources>
