@@ -3,16 +3,32 @@
     package="com.example.maimobile"
     android:versionCode="1"
     android:versionName="1.0" >
+    
+    <supports-screens
+        android:smallScreens="true"
+        android:xlargeScreens="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:anyDensity="true"  />
 
     <uses-sdk
         android:minSdkVersion="9"
         android:targetSdkVersion="16" />
+    
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        
+        <uses-library android:name="com.google.android.maps" />
+        
         <activity
             android:name="com.example.maimobile.Main"
             android:label="@string/app_name" >
@@ -22,6 +38,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        <activity android:name=".New"></activity>
+        <activity android:name=".Info"></activity>
+        <activity android:name=".Program"></activity>
+        <activity android:name=".Contact"></activity>
+        <activity android:name=".GoogleMaps"></activity>
+        <activity android:name=".Weekly"></activity>
+        <activity android:name=".Exams"></activity>
+        <activity android:name=".Kanonismos"></activity>
+        <activity android:name=".Spoudes"></activity>
+        
     </application>
-
+   
 </manifest>

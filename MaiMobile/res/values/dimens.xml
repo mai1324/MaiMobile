@@ -9,5 +9,6 @@
     <dimen name="triantadio">32dp</dimen>
     <dimen name="dekaeksi">16dp</dimen>
     <dimen name="dekari">10dp</dimen>
+    <dimen name="dekawxtari">18dp</dimen>
 
 </resources>
